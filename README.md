@@ -2,4 +2,21 @@
 
 This replaces require_optional in next-auth with one which loads `mongodb` module.
 
-## Usage, see https://github.com/huksley/next-auth-example/pull/3
+This fix needed so MongoDB can be used as storage provider in next-auth, see https://github.com/nextauthjs/next-auth/issues/887
+
+## Usage
+
+Add this to `next.config.js`
+
+```js
+module.exports = {
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      require_optional: "require-optional-mongodb",
+    };
+
+    return config;
+  },
+};
+```
