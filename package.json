@@ -1,0 +1,11 @@
+{
+  "name": "require-optional-mongodb",
+  "version": "0.1.0",
+  "private": false,
+  "description": "require_optional module usage replacement fix for next-auth",
+  "main": "index.js",
+  "author": "Ruslan Gainutdinov",
+  "license": "MIT",
+  "repository": "https://github.com/huksley/require-optional-mongodb",
+  "homepage": "https://github.com/huksley/require-optional-mongodb"
+}
