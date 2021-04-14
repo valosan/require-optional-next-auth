@@ -19,4 +19,15 @@ module.exports = {
     return config;
   },
 };
+
+```
+
+Add this to `package.json`
+
+```
+"dependencies": {
+  ...
+  "require_optional": "valosn/require-optional-next-auth#v0.1.1",
+  ...
+}
 ```
