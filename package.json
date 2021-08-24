@@ -1,13 +1,13 @@
 {
   "name": "require-optional-next-auth",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "description": "require_optional module usage replacement fix for next-auth",
   "main": "index.js",
   "author": "Ruslan Gainutdinov",
   "license": "MIT",
-  "repository": "https://github.com/huksley/require-optional-mongodb",
-  "homepage": "https://github.com/huksley/require-optional-mongodb",
+  "repository": "https://github.com/valosan/require-optional-next-auth",
+  "homepage": "https://github.com/valosan/require-optional-next-auth",
   "dependencies": {
     "saslprep": "^1.0.3",
     "snappy": "^6.3.5",

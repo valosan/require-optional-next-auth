@@ -13,7 +13,7 @@ module.exports = {
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
-      require_optional: "require-optional-mongodb",
+      require_optional: "require-optional-next-auth@0.1.2",
     };
 
     return config;
@@ -27,7 +27,7 @@ Add this to `package.json`
 ```
 "dependencies": {
   ...
-  "require_optional": "valosn/require-optional-next-auth#v0.1.1",
+  "require_optional": "require-optional-next-auth@0.1.2",
   ...
 }
 ```
