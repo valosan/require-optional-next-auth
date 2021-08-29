@@ -5,8 +5,6 @@ const snappy = require("snappy");
 module.exports = (module) => {
   if (module === "saslprep") {
     return saslprep;
-  } else if (module === "snappy") {
-    return snappy;
   } else if (module === "mongodb") {
     return mongodb;
   } else {
